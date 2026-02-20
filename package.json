@@ -1,0 +1,11 @@
+{
+  "name": "sabr-draft-app",
+  "version": "1.0.1",
+  "description": "Fantasy style draft app",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "check": "node --check server.js && node --check public/app.js"
+  }
+}
